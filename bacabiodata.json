@@ -1,0 +1,18 @@
+<?php
+
+$url="http://localhost/12211871/biodata.json";
+$data=file_get_contents($url);
+$result=json_decode($data);
+echo "<pre/>";print_r($result);
+echo "<h2> Tampilan Data Untuk Client </h2>";
+echo "Nama Saya    : ".$result->Nama."<br />";
+echo "Usia         : ".$result->Usia." tahun<br />";
+$wni=($result->WNI==3)? "Indonesia" : "Asing" ;
+echo "Warga Negara : ".$wni." <br />";
+echo "Hoby         : " .implode(",",$result->Hoby)."<br />";
+
+echo "Kabupaten    : ".$result->Kabupaten." <br />";
+echo "Kecamatan    : ".$result->Alamat->Kecamatan." <br />";
+echo "Desa         : ".$result->Alamat->Desa." <br />";
+
+?>

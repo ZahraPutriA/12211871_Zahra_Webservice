@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<data>
+    <mahasiswa id="1">
+        <nama>Zahra</nama>
+        <nim>12211871</nim>
+        <alamat>
+            <desa>Sipacar</desa>
+            <kecamatan>Klaten Tengah</kecamatan>
+        </alamat>
+    </mahasiswa>
+    <mahasiswa id="2">
+        <nama>Putri</nama>
+        <nim>12211872</nim>
+        <alamat>
+            <desa>Semangkak</desa>
+            <kecamatan>Klaten Tengah</kecamatan>
+        </alamat>
+    </mahasiswa>
+    <mahasiswa id="3">
+        <nama>Amalia</nama>
+        <nim>12211873</nim>
+        <alamat>
+            <desa>Sungkur</desa>
+            <kecamatan>Klaten Tengah</kecamatan>
+        </alamat>
+    </mahasiswa>
+    <mahasiswa id="4">
+        <nama>Layla</nama>
+        <nim>12211874</nim>
+        <alamat>
+            <desa>Pandanrejo</desa>
+            <kecamatan>Klaten Tengah</kecamatan>
+        </alamat>
+    </mahasiswa>
+</data>
